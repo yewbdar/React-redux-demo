@@ -11,6 +11,7 @@ const reducer = (state = intialState,action)=>{
                 numOfCake:state.numOfCake - 1
             }
         }
+        default:return state
      }
-}
+    }
 export default reducer
